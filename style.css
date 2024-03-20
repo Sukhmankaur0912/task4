@@ -1,0 +1,86 @@
+header{ 
+    color: rgba(89, 5, 128, 0.586);
+    background-color: rgb(238, 238, 107);
+    font-size: 24px;
+}
+h2{
+    color: rgb(255, 238, 0);
+    font-weight: bold;
+    font-size: 24px;
+}
+aside ul{
+    font-family: arial, sans-serif;
+    color: green;
+}
+aside a:hover{
+    text-decoration: underline;
+}
+nav li{
+    display: inline;
+    list-style: none;
+}
+nav a{
+    border: 2px solid indigo;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font: indigo;
+    background-color: cornsilk;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: indigo;
+    color: cornsilk;
+    border: cornsilk;
+}
+form{
+    border: 5px dashed blue;
+    padding: 5px;
+}
+aside{
+    float: right;
+    width: 25%;
+    height: auto;
+    background-color:rgb(166, 216, 246) ;
+    padding: 10px;
+    padding-bottom: 378px;
+}
+main{
+    width: 70%;
+    height: auto;
+    background-color: rgb(198, 152, 231);
+    padding: 10px;
+    padding-bottom: 50px;
+}
+input [type="text"], input [type="email"], input [type="submit"], select, option {
+    width: 50%;
+    display: block;
+    height: 2em;
+}
+input [type="radio"], input [type="checkbox"] {
+    height: 2em;
+    width: 2em;
+}
+select, label, option, legend, input [type="submit"] {
+    font-size: 1.5rem;
+    font-family: bold;
+    font-variant: small-caps;
+}
+textarea{
+    width: 50%;
+    display: block;
+}
+fieldset{
+    border: none;
+}
+body{
+    margin: 70px;
+    padding: 30px;
+}
+footer{
+    background-color: rgb(133, 242, 184);
+    padding: 30px;
+    margin-top: 10px;
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+}
